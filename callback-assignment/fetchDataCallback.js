@@ -9,3 +9,7 @@ const fetchDataWithCallback = (callback) => {
     }
   }, 2000);
 };
+
+fetchDataWithCallback((data) => {
+  console.log(data);
+});
